@@ -1,0 +1,13 @@
+b1: tao folder (src) -> file index.html , main.js , tssconfig.json 
+tssconfig.json {
+    [
+        "compilerOptions": {
+            "ourDir": "dir"
+            "watch":true
+        }
+    ]
+}
+
+b2: terminal : tsc
+
+b3: component , data , opjectTypes
