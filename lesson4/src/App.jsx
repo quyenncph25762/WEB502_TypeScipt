@@ -1,15 +1,10 @@
 import Avatar from "./components/avatar"
+import Counter from "./components/userEffect"
 const App = () => {
-    const user = {
-        name: "Nguyen Cong Toan",
-        role: "Students"
-    }
-    return <>
-        { }
-        <h1>Hello</h1>
-        <h1>{user.name}</h1>
-        <Avatar showInfo={() => console.log(user.name)} />
-    </>
+    return <div className="flex justify-center items-center">
+        <Avatar />
+        <Counter></Counter>
+    </div>
 }
 
 export default App
