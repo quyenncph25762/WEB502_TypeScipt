@@ -14,8 +14,14 @@ const element = products.map(product =>
         <td>{product.id}</td>
         <td>{product.name}</td>
         <td>{product.price}</td>
+        <td><button className="btn btn-danger" onClick={() => products.filter((item) => item.id != product.id)}>Remove</button></td>
+
     </tr>
 )
 
+
 reactRoot.render(element)
-// npx babel ReactJs.js -w -o react-compile.js
+// Cai dat babel
+// npm install -g @babel/core @babel/cli
+// npm install --save-dev @babel/preset-react
+// npx babel <ten file> -w -o <ten file>
